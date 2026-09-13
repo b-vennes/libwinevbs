@@ -181,7 +181,7 @@ typedef enum DPI_AWARENESS
 #ifdef __LIBWINEVBS__
  #include <wctype.h>
  #include <wchar.h>
- #include <locale.h>
+ #include <xlocale.h>
  #include <stdarg.h>
  #ifndef _WIN32
   int wcsicmp( LPCWSTR str1, LPCWSTR str2 );
